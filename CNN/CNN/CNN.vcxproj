@@ -133,6 +133,15 @@
   <ItemGroup>
     <None Include="README.md" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="DNN.h" />
+    <ClInclude Include="Layer.h" />
+    <ClInclude Include="NeuralNet.h" />
+    <ClInclude Include="Optimizer.h" />
+    <ClInclude Include="Output.h" />
+    <ClInclude Include="RNG.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
